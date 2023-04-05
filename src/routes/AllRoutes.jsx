@@ -8,6 +8,7 @@ export default function AllRoutes() {
     <div>
       <Routes>
         <Route path='/' element={<HomeIndex/>}/>
+        <Route path='demoEcommerceReactApp/' element={<HomeIndex/>}/>
         <Route path='products' element={<ProductsIndex/>} />
         <Route path='products/:id' element={<ProductDetail/>}/>
         <Route path='login' element={<Login/>}/>
